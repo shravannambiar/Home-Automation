@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "406082822469",
+    "firebase_url": "https://techhome-dbaa2.firebaseio.com",
+    "project_id": "techhome-dbaa2",
+    "storage_bucket": "techhome-dbaa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406082822469:android:fbef7a1eb2818e52",
+        "android_client_info": {
+          "package_name": "com.example.shravan.techhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406082822469-ohfaevdeqg13o76plj6ilko9nnf8867i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shravan.techhome",
+            "certificate_hash": "b7e7aacc266d1204f573f2ad4bda4f6ffc69a63a"
+          }
+        },
+        {
+          "client_id": "406082822469-c38bj963slrnp9nf6805hil8hffblcsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwWAFDDyb-cNKIfUKagXgQLo8_Q68lrgg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406082822469-c38bj963slrnp9nf6805hil8hffblcsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

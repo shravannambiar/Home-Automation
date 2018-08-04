@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shravan.techhome.Control_Page">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/ledoff"
+
+            android:layout_below="@+id/ledoff"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="51dp"
+            android:src="@drawable/fan_on"
+            android:visibility="visible"
+            app:layout_anchor="@+id/include"
+            app:layout_anchorGravity="top|center_horizontal"
+            app:layout_constraintLeft_toRightOf="@+id/textView10"
+            tools:ignore="RtlHardcoded,UnknownId,UnknownIdInLayout"
+            tools:layout_editor_absoluteY="151dp" />
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/led"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/welcome"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="59dp"
+            android:text="@string/currently_the_led_is_off" />
+
+        <ImageView
+            android:id="@+id/ledoff"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/ledon"
+            android:layout_below="@+id/welcome"
+            android:layout_marginTop="46dp"
+            android:contentDescription=""
+            app:srcCompat="@drawable/lights_off"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/ledon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@+id/ledoff"
+            android:layout_marginStart="28dp"
+            android:layout_toEndOf="@+id/led"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/lights_on"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/fan"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/led"
+            android:layout_below="@+id/ledoff"
+            android:layout_marginTop="59dp"
+            android:text="@string/currently_the_fan_is_operting_at_0_speed" />
+
+        <ImageView
+            android:id="@+id/fanoff"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/gif"
+            android:layout_alignTop="@+id/gif"
+            android:contentDescription=""
+            android:visibility="invisible"
+            app:srcCompat="@drawable/fan_off"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/fanmode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/fan"
+            android:layout_centerVertical="true"
+            android:text="@string/fan_is_in_auto_mode" />
+
+        <Button
+            android:id="@+id/auto"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/fanmode"
+            android:layout_below="@+id/fanmode"
+            android:layout_marginTop="14dp"
+            android:text="@string/auto"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            tools:ignore="SmallSp" />
+
+        <Button
+            android:id="@+id/manual"
+            android:layout_width="55dp"
+            android:layout_height="30dp"
+            android:text="@string/manual"
+            android:textAllCaps="false"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            tools:ignore="SmallSp"
+            android:layout_above="@+id/speed"
+            android:layout_alignEnd="@+id/fanmode" />
+
+        <SeekBar
+            android:id="@+id/speed"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/auto"
+            android:layout_below="@+id/auto"
+            android:layout_marginTop="14dp"
+            android:layout_toStartOf="@+id/fan_off"
+            android:visibility="invisible"
+            tools:ignore="UnknownIdInLayout" />
+
+        <TextView
+            android:id="@+id/showspeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/speed"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/speed"
+            android:text="@string/_01"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/checkstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignStart="@+id/speed"
+            android:layout_below="@+id/speed"
+            android:layout_marginTop="11dp"
+            android:text="@string/check_home_status"
+            android:textSize="9sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignEnd="@+id/showspeed"
+            android:layout_alignStart="@+id/checkstatus"
+            android:layout_below="@+id/checkstatus"
+            android:layout_marginTop="12dp"
+            android:hint="Home Status Are Displayed Here" />
+
+        <Button
+            android:id="@+id/secure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/status"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="7dp"
+            android:text="@string/motion_sensor_currently_inactive" />
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

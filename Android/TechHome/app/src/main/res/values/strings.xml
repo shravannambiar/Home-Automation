@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TechHome</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_to_home_automation">welcome</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="title_activity_device__list">Device_List</string>
+    <string name="paired_devices">paired_devices</string>
+    <string name="select_your_home">Select Your Home</string>
+    <string name="title_activity_control__page">Control_Page</string>
+    <string name="textview">TextView</string>
+    <string name="textview1">TextView</string>
+    <string name="textview12">TextView</string>
+    <string name="auto">Auto</string>
+    <string name="check_home_status">Check Home Status</string>
+    <string name="currently_the_fan_is_operting_at_0_speed">Fan is currently operating at 0%</string>
+    <string name="manual">Manual</string>
+    <string name="select_fan_operating_mode">Select Fan Operating Mode</string>
+    <string name="welcome_to_techhome_shravan">Welcome To TechHome Shravan</string>
+    <string name="currently_the_led_is_off">Currently The Led Is Off</string>
+    <string name="fan_is_in_auto_mode">Fan is in Auto mode</string>
+    <string name="_0">0%</string>
+    <string name="_01">0%</string>
+    <string name="motion_sensor_currently_inactive">Motion Sensor Currently Inactive</string>
+</resources>

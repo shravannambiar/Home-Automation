@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shravan.techhome.LoginPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="30dp"
+            android:paddingTop="20px"
+            android:text="@string/welcome_to_home_automation"
+
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse"
+            tools:ignore="PxUsage,RtlHardcoded,RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="35dp"
+            android:padding="20dp"
+            android:text="@string/username" />
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView9"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="20dp"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/textViewUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editTextUsername"
+            android:layout_marginTop="50dp"
+            android:padding="20dp"
+            android:text="@string/password" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/textViewUsername"
+            android:layout_marginTop="29dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            tools:ignore="LabelFor" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/editTextPassword"
+            android:layout_marginEnd="130dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/login" />
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
