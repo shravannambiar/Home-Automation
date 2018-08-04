@@ -31,7 +31,10 @@ There are two types of communication involved in this project: wired and wireles
 ## Getting started
 ### Appliance Part
 ```
-this
+First of all collect all the above mentioned components and make sure everything is wroking by conducting individual testing.
+Then note down the password of buletooth module (it is usually 0000 or 1234).
+
+
 ```
  
  
