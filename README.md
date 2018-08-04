@@ -72,12 +72,12 @@ Then note down the password of buletooth module (it is usually 0000 or 1234).
 * After connection is successful you should be able to control the appliances.
 ## Outputs Screenshots
 ### Hardware 
-![alt text](hardware.PNG)
+![alt text](outputs/hardware.PNG)
  ### Android App
-![alt text](first.PNG)
-![alt text](second.PNG)
-![alt text](third.PNG)
-![alt text](fourth.PNG)
+![alt text](outputs/first.PNG)
+![alt text](outputs/second.PNG)
+![alt text](outputs/third.PNG)
+![alt text](outputs/fourth.PNG)
 
 <br>
 
