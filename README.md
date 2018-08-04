@@ -33,8 +33,9 @@ There are two types of communication involved in this project: wired and wireles
 ```
 First of all collect all the above mentioned components and make sure everything is wroking by conducting individual testing.
 Then note down the password of buletooth module (it is usually 0000 or 1234).
-
-
 ```
- 
+Lets start connecting the hardwares together.
+There are analog and digital ports in Ardino.
+Annotation A1,A2,A3 means that I am referring to the 1st,2nd,3rd signal of the Analog signal.
+
  
