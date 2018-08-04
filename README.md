@@ -70,6 +70,12 @@ Then note down the password of buletooth module (it is usually 0000 or 1234).
 * Make sure that you have already paired with the bluetooth module before launching the app.
 * Then select your bluetooth module from the list of already paired devices.
 * After connection is successful you should be able to control the appliances.
-
+## Outputs Screenshots
+### Hardware 
 ![alt text](hardware.PNG)
- 
+ ### Android App
+![alt text](first.PNG)
+![alt text](second.PNG)
+![alt text](third.PNG)
+![alt text](fourth.PNG)
+
