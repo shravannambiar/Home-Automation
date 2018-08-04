@@ -71,5 +71,5 @@ Then note down the password of buletooth module (it is usually 0000 or 1234).
 * Then select your bluetooth module from the list of already paired devices.
 * After connection is successful you should be able to control the appliances.
 
-![alt text]
+![alt text](hardware.PNG)
  
