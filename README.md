@@ -79,3 +79,6 @@ Then note down the password of buletooth module (it is usually 0000 or 1234).
 ![alt text](third.PNG)
 ![alt text](fourth.PNG)
 
+<br>
+
+For any queries please contact at: shravannambiar@gmail.com
