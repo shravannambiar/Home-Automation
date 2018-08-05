@@ -12,7 +12,7 @@ This project is a combination of Android mobile technology and embedded system. 
 ## Features of this project:
 * 2 types of fan speed modes(automatic and manual).
 * In automatic mode fan speed is controlled using Temperature module.
-* In manual mode fan speed is controlled manually using using the android phone (there are 5 possible values 0%,25%,50%,75% & 100%).
+* In manual mode ,fan speed is controlled manually  by using the android phone (there are 5 possible values 0%, 25%, 50%, 75% & 100%).
 * The temperature and humidity sensor will give realtime temperature and humidity of the surrounding.
 * Option to switch Bulb On & Off.
 * Buzzer goes Off along with exit lights powering up and all appliances shuts down if any smoke is detected and a notification is seen on Android phone and as an when smoke is extinguished the buzzer stops along with exit lights switching Off  and a new notification is displayed that "Smoke has been Extinguished " automatically.
