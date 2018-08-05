@@ -4,7 +4,7 @@
 This project is a combination of Android mobile technology and embedded system. User can control Home appliances using Android mobile. An application should be installed on user’s Android mobile handset to control various home appliances. Wireless controlling technique used in this project is Bluetooth technology. The microcontroller used is an Arduino uno board.
 
 ## The objectives of this project include: 
-* construction of a wireless home automation system controlled by a android Smartphone 
+* construction of a wireless home automation system controlled by an android Smartphone 
 * implementation of cost effective and efficient system. 
 * designing  a user friendly and a safe system to control home appliances 
 * aid the elderly and handicapped users.
